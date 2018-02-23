@@ -15,3 +15,25 @@ It provides a ReST API to add/remove trackers, which are custom set of keywords 
 * Uses Twitter's streaming API
 * MongoDB database as JSON store and for efficient query.
 * NodeJS to have an efficient asynchronous implementation.
+
+## Instructions
+1. Create a database for this in MongoDB.
+    ```mongo
+    create database lekhpal;
+    use lekhpal;
+    db.createCollection('tweets')
+    db.createCollection('trackers')
+    ```
+
+2. Modify environment variables in `.env.sh`.
+3. Source env file and run `index.js`.
+    ```sh
+    source .env.sh
+    node index.js
+    ```
+    
+## Endpoints
+- Add a tracker
+- Remove a tracker
+- List available trackers
+- Find tweets
