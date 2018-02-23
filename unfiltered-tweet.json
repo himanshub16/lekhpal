@@ -1,0 +1,590 @@
+{
+    "created_at": "Sun Feb 18 17:01:57 +0000 2018",
+    "id": 965270173358940200,
+    "id_str": "965270173358940160",
+    "text": "RT @umarsaif: Pakistan cricket enters into a digital era https://t.co/IqDKRgdgRH",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 2936321178,
+        "id_str": "2936321178",
+        "name": "Arslan Rauf",
+        "screen_name": "arslankhokhar26",
+        "location": "Mandi Bahuddin",
+        "url": null,
+        "description": "live for others :-)",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 140,
+        "friends_count": 606,
+        "listed_count": 0,
+        "favourites_count": 6902,
+        "statuses_count": 1626,
+        "created_at": "Fri Dec 19 18:55:51 +0000 2014",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/866004973397716992/-QElYitv_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/866004973397716992/-QElYitv_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2936321178/1419135366",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Feb 18 16:52:49 +0000 2018",
+        "id": 965267873466855400,
+        "id_str": "965267873466855425",
+        "text": "Pakistan cricket enters into a digital era https://t.co/IqDKRgdgRH",
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 50745599,
+            "id_str": "50745599",
+            "name": "Umar Saif",
+            "screen_name": "umarsaif",
+            "location": null,
+            "url": "https://www.pitb.gov.pk",
+            "description": "Cabinet Member Punjab; Vice-Chancellor of ITU; Chairman of Punjab IT Board; MIT TR35; WEF YGL; Sitar-i-Imtiaz; Editor-in-Chief MIT Technology Review Pakistan",
+            "translator_type": "none",
+            "protected": false,
+            "verified": true,
+            "followers_count": 293142,
+            "friends_count": 1238,
+            "listed_count": 391,
+            "favourites_count": 1918,
+            "statuses_count": 16305,
+            "created_at": "Thu Jun 25 19:41:31 +0000 2009",
+            "utc_offset": 18000,
+            "time_zone": "Karachi",
+            "geo_enabled": true,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "37384D",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/635827448781869057/KS-E-e4N.png",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/635827448781869057/KS-E-e4N.png",
+            "profile_background_tile": true,
+            "profile_link_color": "883DB3",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "CB6A57",
+            "profile_text_color": "A35354",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/962760448214011906/Q_p3DaZM_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/962760448214011906/Q_p3DaZM_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/50745599/1501404298",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 5,
+        "favorite_count": 19,
+        "entities": {
+            "hashtags": [],
+            "urls": [
+                {
+                    "url": "https://t.co/IqDKRgdgRH",
+                    "expanded_url": "https://www.dawn.com/news/1390197",
+                    "display_url": "dawn.com/news/1390197",
+                    "indices": [
+                        43,
+                        66
+                    ]
+                }
+            ],
+            "user_mentions": [],
+            "symbols": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "es"
+    },
+    "is_quote_status": false,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "urls": [
+            {
+                "url": "https://t.co/IqDKRgdgRH",
+                "expanded_url": "https://www.dawn.com/news/1390197",
+                "display_url": "dawn.com/news/1390197",
+                "indices": [
+                    57,
+                    80
+                ]
+            }
+        ],
+        "user_mentions": [
+            {
+                "screen_name": "umarsaif",
+                "name": "Umar Saif",
+                "id": 50745599,
+                "id_str": "50745599",
+                "indices": [
+                    3,
+                    12
+                ]
+            }
+        ],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "es",
+    "timestamp_ms": "1518973317838"
+}{
+    "created_at": "Sun Feb 18 17:02:01 +0000 2018",
+    "id": 965270187158028300,
+    "id_str": "965270187158028288",
+    "text": "RT @AnilKapoor: Performance at its best! To a cricket fan, today is what a happy day looks like! Spectacular bowling by @BhuviOfficial!! Co…",
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 806078410124464100,
+        "id_str": "806078410124464128",
+        "name": "Pranav Sharma",
+        "screen_name": "pranav34413",
+        "location": "Delhi, India",
+        "url": null,
+        "description": "Nature lover..and proud Himachali",
+        "translator_type": "none",
+        "protected": false,
+        "verified": false,
+        "followers_count": 103,
+        "friends_count": 526,
+        "listed_count": 0,
+        "favourites_count": 14366,
+        "statuses_count": 317,
+        "created_at": "Tue Dec 06 10:10:43 +0000 2016",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": "",
+        "profile_background_image_url_https": "",
+        "profile_background_tile": false,
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/848488369885597697/TOnS6YW7_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/848488369885597697/TOnS6YW7_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/806078410124464128/1483959345",
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+        "created_at": "Sun Feb 18 16:12:33 +0000 2018",
+        "id": 965257741227892700,
+        "id_str": "965257741227892736",
+        "text": "Performance at its best! To a cricket fan, today is what a happy day looks like! Spectacular bowling by… https://t.co/SjvOsTCoQ2",
+        "display_text_range": [
+            0,
+            140
+        ],
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": true,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1652526218,
+            "id_str": "1652526218",
+            "name": "Anil Kapoor",
+            "screen_name": "AnilKapoor",
+            "location": "India",
+            "url": "https://www.facebook.com/anilskapoor/",
+            "description": "Actor, Producer, Husband, Father & now “Fanney Khan\". https://www.instagram.com/anilskapoor/",
+            "translator_type": "none",
+            "protected": false,
+            "verified": true,
+            "followers_count": 3149760,
+            "friends_count": 107,
+            "listed_count": 936,
+            "favourites_count": 976,
+            "statuses_count": 5559,
+            "created_at": "Wed Aug 07 09:36:43 +0000 2013",
+            "utc_offset": 19800,
+            "time_zone": "Chennai",
+            "geo_enabled": true,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "131516",
+            "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/491135559159390209/pb-L75rJ.jpeg",
+            "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/491135559159390209/pb-L75rJ.jpeg",
+            "profile_background_tile": true,
+            "profile_link_color": "009999",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "EFEFEF",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/923044939394514944/auZK1kmu_normal.jpg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/923044939394514944/auZK1kmu_normal.jpg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1652526218/1510255052",
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": null,
+            "follow_request_sent": null,
+            "notifications": null
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": {
+            "id": "317fcc4b21a604d5",
+            "url": "https://api.twitter.com/1.1/geo/id/317fcc4b21a604d5.json",
+            "place_type": "city",
+            "name": "New Delhi",
+            "full_name": "New Delhi, India",
+            "country_code": "IN",
+            "country": "India",
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            76.84252,
+                            28.397657
+                        ],
+                        [
+                            76.84252,
+                            28.879322
+                        ],
+                        [
+                            77.347652,
+                            28.879322
+                        ],
+                        [
+                            77.347652,
+                            28.397657
+                        ]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "extended_tweet": {
+            "full_text": "Performance at its best! To a cricket fan, today is what a happy day looks like! Spectacular bowling by @BhuviOfficial!! Congratulations #TeamIndia!! #INDvSA #T20 https://t.co/rGWWDHmDvH",
+            "display_text_range": [
+                0,
+                162
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "TeamIndia",
+                        "indices": [
+                            137,
+                            147
+                        ]
+                    },
+                    {
+                        "text": "INDvSA",
+                        "indices": [
+                            150,
+                            157
+                        ]
+                    },
+                    {
+                        "text": "T20",
+                        "indices": [
+                            158,
+                            162
+                        ]
+                    }
+                ],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "BhuviOfficial",
+                        "name": "Bhuvneshwar Kumar",
+                        "id": 1035100758,
+                        "id_str": "1035100758",
+                        "indices": [
+                            104,
+                            118
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "media": [
+                    {
+                        "id": 965257637314019300,
+                        "id_str": "965257637314019328",
+                        "indices": [
+                            163,
+                            186
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DWVItPzVwAAWkJK.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DWVItPzVwAAWkJK.jpg",
+                        "url": "https://t.co/rGWWDHmDvH",
+                        "display_url": "pic.twitter.com/rGWWDHmDvH",
+                        "expanded_url": "https://twitter.com/AnilKapoor/status/965257741227892736/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 744,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 750,
+                                "h": 744,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 965257637330735100,
+                        "id_str": "965257637330735105",
+                        "indices": [
+                            163,
+                            186
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DWVItP3U0AEaq1t.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DWVItP3U0AEaq1t.jpg",
+                        "url": "https://t.co/rGWWDHmDvH",
+                        "display_url": "pic.twitter.com/rGWWDHmDvH",
+                        "expanded_url": "https://twitter.com/AnilKapoor/status/965257741227892736/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 750,
+                                "h": 494,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 494,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 448,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            },
+            "extended_entities": {
+                "media": [
+                    {
+                        "id": 965257637314019300,
+                        "id_str": "965257637314019328",
+                        "indices": [
+                            163,
+                            186
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DWVItPzVwAAWkJK.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DWVItPzVwAAWkJK.jpg",
+                        "url": "https://t.co/rGWWDHmDvH",
+                        "display_url": "pic.twitter.com/rGWWDHmDvH",
+                        "expanded_url": "https://twitter.com/AnilKapoor/status/965257741227892736/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 675,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 744,
+                                "resize": "fit"
+                            },
+                            "large": {
+                                "w": 750,
+                                "h": 744,
+                                "resize": "fit"
+                            }
+                        }
+                    },
+                    {
+                        "id": 965257637330735100,
+                        "id_str": "965257637330735105",
+                        "indices": [
+                            163,
+                            186
+                        ],
+                        "media_url": "http://pbs.twimg.com/media/DWVItP3U0AEaq1t.jpg",
+                        "media_url_https": "https://pbs.twimg.com/media/DWVItP3U0AEaq1t.jpg",
+                        "url": "https://t.co/rGWWDHmDvH",
+                        "display_url": "pic.twitter.com/rGWWDHmDvH",
+                        "expanded_url": "https://twitter.com/AnilKapoor/status/965257741227892736/photo/1",
+                        "type": "photo",
+                        "sizes": {
+                            "thumb": {
+                                "w": 150,
+                                "h": 150,
+                                "resize": "crop"
+                            },
+                            "large": {
+                                "w": 750,
+                                "h": 494,
+                                "resize": "fit"
+                            },
+                            "medium": {
+                                "w": 750,
+                                "h": 494,
+                                "resize": "fit"
+                            },
+                            "small": {
+                                "w": 680,
+                                "h": 448,
+                                "resize": "fit"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "quote_count": 3,
+        "reply_count": 31,
+        "retweet_count": 76,
+        "favorite_count": 1039,
+        "entities": {
+            "hashtags": [],
+            "urls": [
+                {
+                    "url": "https://t.co/SjvOsTCoQ2",
+                    "expanded_url": "https://twitter.com/i/web/status/965257741227892736",
+                    "display_url": "twitter.com/i/web/status/9…",
+                    "indices": [
+                        105,
+                        128
+                    ]
+                }
+            ],
+            "user_mentions": [],
+            "symbols": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "filter_level": "low",
+        "lang": "en"
+    },
+    "is_quote_status": false,
+    "quote_count": 0,
+    "reply_count": 0,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": [
+            {
+                "screen_name": "AnilKapoor",
+                "name": "Anil Kapoor",
+                "id": 1652526218,
+                "id_str": "1652526218",
+                "indices": [
+                    3,
+                    14
+                ]
+            },
+            {
+                "screen_name": "BhuviOfficial",
+                "name": "Bhuvneshwar Kumar",
+                "id": 1035100758,
+                "id_str": "1035100758",
+                "indices": [
+                    120,
+                    134
+                ]
+            }
+        ],
+        "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1518973321128"
+}

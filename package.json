@@ -1,0 +1,37 @@
+{
+  "name": "lekhpal",
+  "version": "1.0.0",
+  "description": "Monitors Twitter for buzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshub16/lekhpal.git"
+  },
+  "keywords": [
+    "twitter",
+    "stream",
+    "monitoring"
+  ],
+  "author": "himanshub16",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himanshub16/lekhpal/issues"
+  },
+  "homepage": "https://github.com/himanshub16/lekhpal#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "depd": "^1.1.2",
+    "express": "^4.16.2",
+    "flat": "^4.0.0",
+    "is-buffer": "^2.0.0",
+    "json2csv": "^4.0.0-alpha.0",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.0.2",
+    "mongodb-core": "^3.0.2",
+    "twit": "^2.2.9"
+  }
+}
