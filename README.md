@@ -26,14 +26,9 @@ It provides a ReST API to add/remove trackers, which are custom set of keywords 
     ```
 
 2. Modify environment variables in `.env.sh`.
+
 3. Source env file and run `index.js`.
     ```sh
     source .env.sh
     node index.js
     ```
-    
-## Endpoints
-- Add a tracker
-- Remove a tracker
-- List available trackers
-- Find tweets
