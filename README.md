@@ -32,3 +32,42 @@ It provides a ReST API to add/remove trackers, which are custom set of keywords 
     source .env.sh
     node index.js
     ```
+
+## Routes
+* ```
+     POST /find
+     Content-Type: application/json
+   ```
+
+   **Parameters**
+   | Parameter | Type | Description |
+   |-| - |-|
+   | query | Object | The query to make in MongoDB's query format |
+   | projection | Object | The fields to project in MongoDB's projection format |
+   | format | string | One of 'json' or 'csv' |
+   | page_no | number | Default 1, The page number to get result from |
+   | page_size | number | Optional; The page size required |
+
+* ```POST /add_tracker
+     Content-Type: application/json
+  ```
+
+  **Parameters**
+  | Parameter | Type | Description |
+  |-| - |-|
+  | words_to_track | Array | The list of words to track. This creates a new tracker and starts listening to it |
+
+* ```
+     DELETE /remove_tracker
+     Content-Type: application/json
+  ```
+
+  **Parameters**
+  | Parameter | Type | Description |
+  |-| - |-|
+  | tracker_id | string | The id of the tracker to delete |
+
+* ```
+     GET /list_trackers
+     Content-Type: application/json
+  ```
