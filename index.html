@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+        media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        article {
+            margin-bottom: 50px !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="nav-wrapper white navbar-fixed">
+                <a href="#home" class="brand-logo black-text" style="margin-left: 20px">Lekhpal</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a class="black-text" href="#explore">Explore</a>
+                    </li>
+                    <li>
+                        <a class="black-text" href="#configure">Configure</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="container" id="home">
+            <h4 class="center">
+                Filter, catalog and analyze tweets based on the keywords you want.
+            </h4>
+            <hr>
+            <br>
+            
+            <h5><u>Define your search parameters</u></h5>
+
+            <div class="row">
+                <!-- created by -->
+                <div class="col m2 l2" style="padding-top: 1em">Tweet by</div>
+                <div class="col m4 l4">
+                    <input type="text" id="searchCreatedBy" placeholder="Twitter handle">
+                </div>
+
+                <!-- text contains -->
+                <div class="col m2 l2" style="padding-top: 1em">Text contains</div>
+                <div class="col m4 l4">
+                    <input type="text" id="searchTextContains" placeholder="intern...">
+                </div>
+            </div>
+
+            <!-- created at -->
+            <div class="row">
+                <div class="col m2 bold" style="padding-top: 1em">Created at</div>
+                <div class="col m1"></div>
+                <div class="col m4 bold">
+                    Before &nbsp;&nbsp;
+                    <input type="date" id="searchStartDate">
+                </div>
+                <div class="col m1"></div>
+                <div class="col m4 bold">
+                    After &nbsp;&nbsp;
+                    <input type="date" id="searchEndDate">
+                </div>
+            </div>
+
+            <!-- stats -->
+            <div class="row">
+                <b>Other filters</b> <br>
+                <div class="col m2">Favorites</div>
+                <div class="col m2">Less than <input type="number" id="searchFavLt"></div>
+                <div class="col m2">Greater than <input type="number" id="searchFavGt"></div>
+                <div class="col m2">Likes </div>
+                <div class="col m2">Less than <input type="number" id="searchLikeLt"></div>
+                <div class="col m2">Greater than <input type="number" id="searchLikeGt"></div>
+            </div>
+
+        </article>
+
+        <article class="container" id="explore">
+
+        </article>
+
+        <article class="container" id="configure">
+            <h3>Keywords being tracked</h3>
+            <div>
+                Add more words to track <br>
+                <input type="text" placeholder="Separate by comma" id="addTrackerText" style="width: 400px">
+                <span class="clearfix"></span>
+                <button class="btn blue" onclick="addTracker()">
+                    <i class="material-icons">add</i>
+                </button>
+                <button class="btn blue right" onclick="updateTrackers()">
+                    <i class="material-icons">refresh</i>
+                </button>
+            </div>
+            <table class="centered striped">
+                <thead>
+                    <tr>
+                        <th>Tracker ID</th>
+                        <th>Keywords</th>
+                        <!-- <th># Tweets</th> -->
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="trackers-list"></tbody>
+            </table>
+        </article>
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script>
+        function addTracker() {
+            let text = $('#addTrackerText')[0].value
+            let words = text.split(',').map(w => w.toLowerCase().trim())
+            console.log(words)
+            $.ajax({
+                type: 'POST',
+                url: '/add_tracker',
+                data: {words_to_track: words},
+                success: console.log,
+                dataType: 'json'
+            })
+        }
+
+        function deleteTracker(_trackerId) {
+            console.log('deleting', _trackerId)
+            $.ajax({
+                type: 'DELETE',
+                url: '/remove_tracker',
+                data: {trackerId: _trackerId},
+                success: updateTrackers,
+            })
+        }
+
+        function updateTrackers(trackers) {
+            console.log('fetching trackers')
+            $.get('/list_trackers').done((trackers) => {
+                console.log(trackers)
+                $('#trackers-list').html(() => {
+                    let result = ''
+                    for (let t of trackers) {
+                        result += `<tr>
+                            <td>${t.id}</td>
+                            <td>${t.words.join(', ')}</td>
+                            <td><button class="btn red" onclick="deleteTracker('${t.id}')">
+                                <i class="material-icons">delete</i>
+                                </button>
+                            </td>
+                        </tr>`
+                    }
+                    return result
+                })
+            })
+        }
+
+        $(document).ready(() => {
+            updateTrackers()
+        })
+    </script>
+</body>
+
+</html>
+      
