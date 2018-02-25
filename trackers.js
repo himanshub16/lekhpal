@@ -87,12 +87,36 @@ async function removeTracker(req, res, db) {
 }
 
 async function listTrackers(req, res, db) {
-    let response = {}
+    let response = []
     Object.keys(allTrackers).forEach((key) => {
-        response[key] = allTrackers[key].words
+        response.push({
+            id: key,
+            words: allTrackers[key].words,
+            count: 0
+        })
     })
-
     res.json(response)
+    return
+
+    // TODO : add counts to list
+    /*
+    let cursor = await db.collection('tweets').aggregate([
+        {$match: {tracker_id: {$in: response.map(e => e.id)}}},
+        {$group: {_id: "$tracker_id", count: {$sum: 1}}},
+        {$sort: {count: -1}}
+    ])
+    let counts = {}
+    console.log(await cursor.count())
+    for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
+        console.log('doc', doc)
+        counts[doc._id] = doc.count
+    }
+    console.log(response, counts)
+    for (let i = 0; i < response.length; i++) {
+        response[i]['count'] = counts[response[i].id]
+    }
+    res.json(response)
+    */
 }
 
 function isTrackerKnown(trackerId) {
